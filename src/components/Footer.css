@@ -1,0 +1,24 @@
+.footer {
+  background-color: #6a0dad; /* Purple theme */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 0.9rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer a {
+  color: #e0b3ff;
+  text-decoration: none;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}

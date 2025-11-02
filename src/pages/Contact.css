@@ -1,0 +1,64 @@
+.contact {
+  max-width: 800px;
+  margin: 5rem auto;
+  padding: 3rem 2rem;
+  background: #f9f9ff;
+  border-radius: 12px;
+  text-align: center;
+  position: absolute;
+  top: 40%;   
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.contact:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact h2 {
+  font-size: 2.2rem;
+  color: #6b4bff;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.contact h2::after {
+  content: "";
+  width: 70px;
+  height: 4px;
+  background: #a161fb;
+  display: block;
+  margin: 0.5rem auto;
+  border-radius: 2px;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  color: #444;
+  margin: 1rem 0;
+}
+
+.contact a {
+  color: #6b4bff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.contact a:hover {
+  color: #a161fb;
+  text-shadow: 0 0 5px rgba(161, 97, 251, 0.3);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
