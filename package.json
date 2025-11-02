@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "homepage": "https://Pooja-1506.github.io/Pooja_Portfolio",
   "name": "portfolio_app",
   "version": "1.0.0",
@@ -8,6 +9,17 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+=======
+  "name": "portfolio_app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+>>>>>>> 03047e2b9c4923aef2bd38b0b14b512eeb79ae19
   },
   "dependencies": {
     "react": "^19.2.0",
@@ -17,6 +29,16 @@
   "devDependencies": {
     "@eslint/js": "^9.36.0",
     "@types/react": "^19.1.16",
+<<<<<<< HEAD
     "@types/react-dom": "^19.1.9"
+=======
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "^7.1.7"
+>>>>>>> 03047e2b9c4923aef2bd38b0b14b512eeb79ae19
   }
 }
